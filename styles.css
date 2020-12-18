@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    /* list-style: none; */
+}
+
+body{
+    height: 100vh;
+    padding: auto ;
+    background-repeat: no-repeat;
+    background: url(fondo-landing-1.jpg);
+    background-color: rgba(150, 150, 150, 0.253);
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+
+.window{
+    position: relative;
+    height: 90vh;
+    width: 80vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    background-color: rgba(46, 46, 46, 0.808);
+    box-shadow: 0 0 30px rgb(59, 59, 59);
+}
+
+header{
+    height: 20vh;
+}
+
+header>img{
+    position: relative;
+    width: 10vw;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+section{
+    height: 70vh;
+}
+
+.contenedor{
+    height: 60vh;
+    position: static;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /*background-color: white; */
+}
+
+.contenedor>img{
+    width: 25vw;
+    height: 25vw;
+    /* position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 50%; */
+}
+
+.contenedor>.context{
+    /* height: 100%;
+    background-color: lightgray; */
+    text-align: start;
+    width: 30%;
+    padding: 3% 5%;
+    margin: auto 8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.context>ul{
+    width: 80%;
+}
+
+.context>ul>li>p{
+    margin: 20px auto;
+}
+
+form{
+    padding: 10px;
+}
+
+#input-email{
+    padding: 0;
+    height: 40px;
+    width: 60%;
+    color: rgb(29, 29, 29);
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+#boton{
+    height: 40px;
+    width: 35%;
+    background-color: yellowgreen;
+    border: none;
+    border-radius: 6px;
+}
